@@ -9,18 +9,6 @@ terraform {
       version = "3.0.1"
     }
   }
-  required_version = ">= 0.14"
-
-  backend "remote" {
-    organization = "NyaineCM_Devops_Co_Ltd"
-
-    workspaces {
-      name = "Terraform_Cloud_Api_driven_wf_with_git_actions"
-    }
-  }
-}
-
-
 provider "aws" {
   region = "us-west-2"
 }
