@@ -9,6 +9,7 @@ terraform {
       version = "3.0.1"
     }
   }
+}
 provider "aws" {
   region = "us-west-2"
 }
